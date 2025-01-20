@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.Quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+* {
+    padding: 0;
+    margin: 0;
+}
+.header-nav-tag{
+    margin-top: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.H-A-F-A {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+.logo-H-A-F-A-btn-main-div{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+.school{
+    font-size: 32px;
+    font-weight: bold;
+}
+.home-li{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FEA301 ;
+}
+.about-li{
+    font-size: 20px;
+    font-weight: 500;
+    color: #01ACFD
+}
+.Facilities-li{
+    font-size: 20px;
+    font-weight: 500;
+    color: #05D4DF;
+}
+.Admission-li{
+    font-size: 20px;
+    font-weight: 500;
+    color: #5D58EF;
+}
+.content-btn-nav{
+    color: white;
+    background-color: #FEA301;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 60px;
+}
+.hari{
+    background-color: #FEA301 ;
+}
+/* nav section Responsive */
+@media screen and (max-width:576px) {
+    .H-A-F-A, .school, .content-btn-nav{
+        display: none;
+    }
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+    .hari{
+        display: none;
+    }
+}
+
