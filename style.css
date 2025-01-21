@@ -150,7 +150,7 @@ ul li a{
     }
 }
 /* main-section */
-.main-section{
+.main-1s-section{
     background-image: url(./assets/bg.png);
     
 }
@@ -204,8 +204,7 @@ ul li a{
     text-align: center;
     box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.05);
     background-image:
-    linear-gradient(to top, rgba(255, 255, 255, 1.00), rgba(238, 225, 255, 1.00)),
-    url('images/background.jpg');
+    linear-gradient(to top, rgba(255, 255, 255, 1.00), rgba(238, 225, 255, 1.00));
 }
 .Kinder-Years-hed{
     font-size: 25px;
@@ -278,6 +277,234 @@ ul li a{
     border-radius: 500px;
 }
 /* Our-Stories section */
+.Our-Stories-section{
+    background-blend-mode: multiply;
+    background:
+    linear-gradient(to top, rgb(235, 213, 175), rgba(255, 255, 255, 1.00)),
+    url('./assets/bg.png');
+    /* background: url("./assets/bg.png") no-repeat left top, linear-gradient(#f8d7ee, #c56460); */
+}
+.Our-Stories-containar-1-2-3-4-5{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    justify-content: center;
+    margin-top: 80px;
+}
 .Our-Stories{
-    
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+}
+#box-1{
+    grid-row: span 5;
+    border-radius: 16px;
+    background-color: white;
+    width: 540px;
+    height: 630px;
+
+}
+.story-2-3-4-5{
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+
+.box-2{
+    /* height: 301.61px;
+    width: 290.69px; */
+    background-color: white;
+    border-radius: 16px;
+    gap: 19px;
+    margin-bottom: 19px;
+}
+.box-3{
+    /* height: 301.61px;
+    width: 290.69px; */
+    background-color: white;
+    border-radius: 16px;  
+}
+.box-4{
+    /* height: 301.61px;
+    width: 290.69px; */
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 19px;
+}
+.box-5{
+    /* height: 301.61px;
+    width: 290.69px; */
+    background-color: white;
+    border-radius: 16px;
+}
+.first-box-img{
+    border-top-right-radius: 10px ;
+    border-top-left-radius: 10px;
+    width: 100%;
+}
+.November-1tag{
+    color: white;
+    background-color: #3CD8E8;
+    border: none;
+    display: inline;
+    position: relative;
+    border-radius:100px ;
+    padding: 14px 19px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 38px;
+}
+.box-2-November{
+    font-size: 15px;   
+    font-weight: 500;
+    color: white;
+    background-color: #95B226;
+    position: relative;
+    border-radius:100px ;
+    display: inline;
+    margin: 0px 0px 20px 35px;
+    padding: 10px 19px;
+}
+.box-3-November{
+    font-size: 15px;   
+    font-weight: 500;
+    color: white;
+    background-color: #95B226;
+    position: relative;
+    border-radius:100px ;
+    display: inline;
+    margin: 0px 0px 20px 35px;
+    padding: 10px 19px;
+}
+.box-4-November{
+    font-size: 15px;   
+    font-weight: 500;
+    color: white;
+    background-color: #5D58F0;
+    position: relative;
+    border-radius:100px ;
+    display: inline;
+    margin: 0px 0px 20px 35px;
+    padding: 10px 19px;
+}
+.box-5-November{
+    font-size: 15px;   
+    font-weight: 500;
+    color: white;
+    background-color: #95B226;
+    position: relative;
+    border-radius:100px ;
+    display: inline;
+    margin: 0px 0px 20px 35px;
+    padding: 10px 19px; 
+}
+.first-box-hed{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 58px 38px;
+}
+.first-box-prag{
+    padding: 0px 68px 34px 38px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+}
+.box-2-3-4-5-img{
+    border-top-right-radius: 10px ;
+    border-top-left-radius: 10px;
+}
+.box-2-3-4-5-prag{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 19px 38px 28px 37px;
+}
+.View-All-btn{
+    text-align: center;
+}
+.View-All{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px 50px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 80px 60px;
+}
+/* Our Stories responsive */
+@media screen and (max-width:576px) {
+    #box-1{
+        display: none;
+    }
+    .story-2-3-4-5{
+        width: 100%;
+    }
+    .box-2-3-4-5-img{
+        width: 100%;  
+    }
+    .View-All{
+        margin: 20px 40px;
+    }
+}
+
+/* footer-section */
+.footer-section{
+    height: 519px;
+    background-color: #01ACFD;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-prag{
+    color: white;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 35px;
+}
+.Kids-Education{
+    color: white;
+}
+.fooder-About-School{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 20px;
+}
+.footer-ul{
+    color: white;
+    list-style: none;
+    list-style: none;
+}
+
+.footer-a{
+    color: white;
+    margin-top: 10px;
+}
+.a-h-a-f-a{
+    gap: 10px;
+}
+.Keep-In-Touch{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+/* footer section responsive */
+@media screen and (max-width:576px) {
+    .footer-section{
+        flex-direction: column;
+    }
+    .footer-section{
+        align-items:first baseline;
+        padding:15px;
+    }
+    .footer-prag{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
 }
