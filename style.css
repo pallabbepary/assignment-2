@@ -13,6 +13,9 @@
 .header-nav-tag{
     margin-top: 20px;
 }
+/* .nav-section{
+    border-bottom: solid #F0AA00;
+} */
 .logo{
     display: flex;
     align-items: center;
@@ -71,14 +74,17 @@ ul li a{
 /* nav section Responsive */
 @media screen and (max-width:576px) {
     .H-A-F-A, .school, .content-btn-nav{
-        display: none;
+        display: none;   
+    }
+    .nav-section{
+        border-bottom: solid #F0AA00;
     }
 }
-/* @media screen and (min-width:576px) and (max-width:991px) {
+@media screen and (min-width:576px) and (max-width:991px) {
     .hari{
         display: none;
     }
-} */
+}
 
 /* bannar-section */
 .bannar-section{
@@ -166,6 +172,9 @@ ul li a{
     height: 476px;
     text-align: center;
     box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.05);
+    background-image:
+    linear-gradient(to top, rgba(255, 255, 255, 1.00), rgba(222, 245, 255, 1.00)),
+    url('images/background.jpg');
 }
 .kinder-img{
     padding: 52px 0px 32px 0px;
@@ -183,6 +192,9 @@ ul li a{
     height: 476px; 
     text-align: center;
     box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.05);
+    background-image:
+    linear-gradient(to top, rgba(255, 255, 255, 1.00), rgba(255, 244, 220, 1.00)),
+    url('images/background.jpg');
 }
 .Middle{
     border: solid #F2E8FF ;
@@ -191,6 +203,9 @@ ul li a{
     height: 476px;
     text-align: center;
     box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.05);
+    background-image:
+    linear-gradient(to top, rgba(255, 255, 255, 1.00), rgba(238, 225, 255, 1.00)),
+    url('images/background.jpg');
 }
 .Kinder-Years-hed{
     font-size: 25px;
@@ -249,4 +264,20 @@ ul li a{
         font-size: 26px;
         margin: 40px 0px 20px 0px ;
     }
+}
+.Symbol-one-Symbol-two{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin: 80px 0px 60px 0px;
+    gap: 10px;
+}
+.Symbol-one, .Symbo-two{
+    background-color: #FEA301;
+    padding: 15px;
+    border-radius: 500px;
+}
+/* Our-Stories section */
+.Our-Stories{
+    
 }
