@@ -74,9 +74,179 @@ ul li a{
         display: none;
     }
 }
-@media screen and (min-width:576px) and (max-width:991px) {
+/* @media screen and (min-width:576px) and (max-width:991px) {
     .hari{
         display: none;
     }
-}
+} */
 
+/* bannar-section */
+.bannar-section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bannar-hedding{
+    font-size: 56px;
+    font-weight: bold;
+}
+.Empowering{
+    color: #FEA301;
+}
+.age-towards-vision{
+    color: #01ACFD;
+}
+.bannar-prag{
+    font-size: 20px;
+    font-weight: 400;
+    color: #111111;
+    margin-top: 24px;
+}
+.Enroll-Now{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 15px 40px;
+    margin-top: 24px;
+    border: none;
+    border-radius: 12px;
+
+}
+/* bannar section Responsive */
+@media screen and (max-width:576px) {
+    .bannar-section{
+        flex-direction:column-reverse;
+        text-align: center;
+    }
+    .bannar-hedding{
+        font-size: 32px;
+        font-weight: bold;
+        
+        
+    }
+    .bannar-prag{
+        font-size:14px;
+        font-weight: 500;
+        padding:20px ;
+    }
+    .Enroll-Now{
+        border-radius: 8px;
+        padding: 6px 24px;   
+    }
+    .hero-kids{
+        width:calc(100% - 40px)   
+    }
+    .bannar-hedding{
+        margin-top:20px ;
+    }
+}
+/* main-section */
+.main-section{
+    background-image: url(./assets/bg.png);
+    
+}
+.Standard-Curriculum{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px 0px 80px 0px ;
+}
+.Kinder-Elementary-Middle{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.Kinder-div{
+    border: solid #DEF5FF;
+    border-radius: 18px;
+    width: 367px;
+    height: 476px;
+    text-align: center;
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.05);
+}
+.kinder-img{
+    padding: 52px 0px 32px 0px;
+}
+.Elementary-img{
+    padding: 52px 0px 32px 0px;
+}
+.Middle-img{
+    padding: 52px 0px 32px 0px;
+}
+.Elementary{
+    border: solid #FFF4DC;
+    border-radius: 18px;
+    width: 367px;
+    height: 476px; 
+    text-align: center;
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.05);
+}
+.Middle{
+    border: solid #F2E8FF ;
+    border-radius: 18px;
+    width: 367px;
+    height: 476px;
+    text-align: center;
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.05);
+}
+.Kinder-Years-hed{
+    font-size: 25px;
+    font-weight: bold;
+}
+.Elementary-School-hed{
+    font-size: 25px;
+    font-weight: bold;  
+}
+.Middle-Years-hed-s{
+    font-size: 25px;
+    font-weight: bold;
+}
+.Kinder-prag{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 33px;
+}
+.Elementary-prag{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 33px;
+}
+.Middle-prag{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 33px;
+}
+.Read-More-btn-fs{
+    font-size: 15px;
+    font-weight: bold;
+    color: #64C8FF;
+    border: none;
+    background-color: white;
+}
+.Read-More-btn-se{
+    font-size: 15px;
+    font-weight: bold;
+    color: #F0AA00;
+    border: none;
+    background-color: white;
+}
+.Read-More-btn-th{
+    font-size: 15px;
+    font-weight: bold;
+    color: #8700FF;
+    border: none;
+    background-color: white;
+}
+/* Standard Curriculum section Responsive */
+@media screen and (max-width:576px) {
+    .Kinder-Elementary-Middle{
+        flex-direction: column;
+    }
+    .Standard-Curriculum{
+        font-size: 26px;
+        margin: 40px 0px 20px 0px ;
+    }
+}
