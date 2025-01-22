@@ -10,6 +10,7 @@
     padding: 0;
     margin: 0;
 }
+
 .header-nav-tag{
     margin-top: 20px;
 }
@@ -276,8 +277,17 @@ ul li a{
     padding: 15px;
     border-radius: 500px;
 }
+
+/* Symbol-one-Symbol-two */
+@media screen and (max-width:576px) {
+    .Symbol-one-Symbol-two{
+        display: none;
+    }
+}
+
 /* Our-Stories section */
 .Our-Stories-section{
+   max-height: 1018px;
     background-blend-mode: multiply;
     background:
     linear-gradient(to top, rgb(235, 213, 175), rgba(255, 255, 255, 1.00)),
@@ -295,13 +305,14 @@ ul li a{
     font-size: 46px;
     font-weight: bold;
     text-align: center;
+    margin-top: 40px;
 }
 #box-1{
     grid-row: span 5;
     border-radius: 16px;
     background-color: white;
-    width: 540px;
-    height: 630px;
+    max-width: 540px;
+    /* height: 630px; */
 
 }
 .story-2-3-4-5{
@@ -311,29 +322,29 @@ ul li a{
 }
 
 .box-2{
-    /* height: 301.61px;
-    width: 290.69px; */
+    /* max-height: 301.61px; */
+    max-width: 290.69px;
     background-color: white;
     border-radius: 16px;
     gap: 19px;
     margin-bottom: 19px;
 }
 .box-3{
-    /* height: 301.61px;
-    width: 290.69px; */
+    /* max-height: 301.61px; */
+    max-width: 290.69px;
     background-color: white;
     border-radius: 16px;  
 }
 .box-4{
-    /* height: 301.61px;
-    width: 290.69px; */
+    /* max-height: 301.61px; */
+    max-width: 290.69px;
     background-color: white;
     border-radius: 16px;
     margin-bottom: 19px;
 }
 .box-5{
-    /* height: 301.61px;
-    width: 290.69px; */
+    /* height: 301.61px; */
+    max-width: 290.69px;
     background-color: white;
     border-radius: 16px;
 }
@@ -348,6 +359,7 @@ ul li a{
     border: none;
     display: inline;
     position: relative;
+    bottom: 11px;
     border-radius:100px ;
     padding: 14px 19px;
     font-size: 15px;
@@ -360,6 +372,7 @@ ul li a{
     color: white;
     background-color: #95B226;
     position: relative;
+    bottom: 11px;
     border-radius:100px ;
     display: inline;
     margin: 0px 0px 20px 35px;
@@ -371,6 +384,7 @@ ul li a{
     color: white;
     background-color: #95B226;
     position: relative;
+    bottom: 11px;
     border-radius:100px ;
     display: inline;
     margin: 0px 0px 20px 35px;
@@ -382,6 +396,7 @@ ul li a{
     color: white;
     background-color: #5D58F0;
     position: relative;
+    bottom: 11px;
     border-radius:100px ;
     display: inline;
     margin: 0px 0px 20px 35px;
@@ -393,6 +408,7 @@ ul li a{
     color: white;
     background-color: #95B226;
     position: relative;
+    bottom: 11px;
     border-radius:100px ;
     display: inline;
     margin: 0px 0px 20px 35px;
@@ -401,10 +417,10 @@ ul li a{
 .first-box-hed{
     font-size: 24px;
     font-weight: bold;
-    padding: 58px 38px;
+    padding: 20px 0px 20px 38px;
 }
 .first-box-prag{
-    padding: 0px 68px 34px 38px;
+    padding: 0px 0px 0px 38px;
     font-size: 15px;
     font-weight: 400;
     color: #666666;
@@ -431,6 +447,10 @@ ul li a{
     font-weight: bold;
     margin: 80px 60px;
 }
+.Simple-assignment{
+    font-size: 20px;
+    font-weight: bold;
+}
 /* Our Stories responsive */
 @media screen and (max-width:576px) {
     #box-1{
@@ -444,6 +464,20 @@ ul li a{
     }
     .View-All{
         margin: 20px 40px;
+    }
+    .Our-Stories-section{
+        /* width:calc(100% - 40px) */
+    }
+    .box-2-November, .box-3-November, .box-4-November, .box-5-November{
+        font-size: 9.13px;
+        font-weight: 500;
+        /* margin: 0px 0px 0px 5px; */
+        position: relative;
+        bottom: 15px;
+        left: -20px; 
+    }
+    .box-2-3-4-5-prag{
+        padding: 11px 23px 17px 22px;
     }
 }
 
